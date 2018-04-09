@@ -30,7 +30,7 @@ class String
   end
 
   def count_sentences
-    self.scan[/\W/]
+    counter = self.scan[/\W/]
     self.count
 
   end
