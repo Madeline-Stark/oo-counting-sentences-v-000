@@ -30,7 +30,7 @@ class String
   end
 
   def count_sentences
-    counter = self.scan([/\W/])
+    counter = self.scan(/[\W]/)
     binding.pry
     new_counter = []
     counter.each do |string|
