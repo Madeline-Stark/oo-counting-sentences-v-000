@@ -31,7 +31,12 @@ class String
 
   def count_sentences
     counter = self.scan[/\W/]
-    counter = counter.count
+    new_counter = []
+    counter.each do |string|
+      unless string.empty?
+      new_counter << string
+    end
+    new_counter.count
 
   end
 end
