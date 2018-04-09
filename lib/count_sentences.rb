@@ -32,12 +32,11 @@ class String
   def count_sentences
     counter = self.scan[/\W/]
     new_counter = []
-    counter.each do |x|
-      unless x.empty?
+    counter.each do |string|
+      unless string.blank?
         new_counter << string
       end
     new_counter.count
-    binding.pry
-
   end
+
 end
