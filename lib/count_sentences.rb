@@ -31,6 +31,7 @@ class String
 
   def count_sentences
     self.scan[/\W/].split
+    binding.pry
     self.count
 
   end
