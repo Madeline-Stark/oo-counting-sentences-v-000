@@ -34,9 +34,10 @@ class String
     new_counter = []
     counter.each do |string|
       unless string.empty?
-      new_counter << string
-    end
+        new_counter << string
+      end
     new_counter.count
+    binding.pry
 
   end
 end
