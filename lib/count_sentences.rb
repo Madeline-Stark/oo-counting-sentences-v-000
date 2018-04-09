@@ -37,6 +37,7 @@ class String
         new_counter << string
       end
     end
+    binding.pry
     new_counter.count
   end
 
