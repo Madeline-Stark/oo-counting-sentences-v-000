@@ -33,7 +33,7 @@ class String
     counter = self.split(/[\W]/)
     new_counter = []
     counter.each do |string|
-      unless string == " " || ""
+      unless string == " " || string == ""
         new_counter << string
       end
     end
