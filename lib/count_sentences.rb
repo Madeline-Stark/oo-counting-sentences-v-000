@@ -30,7 +30,7 @@ class String
   end
 
   def count_sentences
-    counter = self.split(/[^\.!?]+[\.!?]/)
+    counter = self.scan(/[^\.!?]+[\.!?]/)
     new_counter = []
     counter.each do |string|
       unless string == " " || string == ""
