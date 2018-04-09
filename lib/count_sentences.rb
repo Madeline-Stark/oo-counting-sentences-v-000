@@ -30,8 +30,7 @@ class String
   end
 
   def count_sentences
-    self.scan[/\W/].split
-    binding.pry
+    self.scan[/\W/]
     self.count
 
   end
