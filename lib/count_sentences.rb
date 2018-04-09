@@ -31,7 +31,7 @@ class String
 
   def count_sentences
     counter = self.scan[/\W/]
-    self.count
+    counter = counter.count
 
   end
 end
