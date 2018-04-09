@@ -36,6 +36,7 @@ class String
       unless string.blank?
         new_counter << string
       end
+    end
     new_counter.count
   end
 
