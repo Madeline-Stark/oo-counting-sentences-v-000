@@ -31,7 +31,7 @@ class String
 
   def count_sentences
     counter = self.scan[/\W/]
-    binding pry
+    binding.pry
     new_counter = []
     counter.each do |string|
       unless string.blank?
